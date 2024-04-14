@@ -246,8 +246,8 @@ margin: 30px;
     height: 550px;
 }
 .comentario div{
-    height: 400px;
-    width: 800px;
+    height: 500px;
+    width: 600px;
     text-align: center;
     background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(6,77,22,1) 0%, rgba(3,255,154,1) 100%);
     border: solid 3px #1E7E34;
@@ -435,7 +435,7 @@ margin: 30px;
 
 @media screen and (max-width:615px){
     .comentario div{
-        height: 400px;
+        height: 500px;
         width: 400px;
         text-align: center;
         background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(6,77,22,1) 0%, rgba(3,255,154,1) 100%);
@@ -525,7 +525,7 @@ margin: 30px;
         vertical-align: center;
     }
     .comentario div{
-        height: 300px;
+        height: 400px;
         width: 300px;
         text-align: center;
         background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(6,77,22,1) 0%, rgba(3,255,154,1) 100%);
