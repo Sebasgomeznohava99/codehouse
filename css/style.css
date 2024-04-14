@@ -159,7 +159,6 @@ transform: translateY(5px) translateZ(5px);
     width: 50%;
     margin: 30px auto;
     overflow: hidden;
-    height: 400px;
 }
 
 .informacion {
@@ -176,8 +175,32 @@ footer{
     background: linear-gradient(to bottom, #49aa25 0%, #1E7E34 40%);
 }
 
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
+
+.footer-1{
+    text-align: justify;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-3{
+    text-align: center;
+    margin-top: 40px;
+}
+
 footer ul li {
     margin: 10px;
+    list-style: none;
 }
 
 footer ul li a {
@@ -340,6 +363,50 @@ margin: 30px;
     }
 }
 
+@media screen and (max-width:670px){
+    .grid-footer{
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        grid-auto-rows: 200px;
+    }
+    .footer-1{
+        text-align: justify;
+        padding: 20px;
+        padding-left: 20px;
+        font-size: 12px;
+        padding-top: 30px;
+    }
+    
+    .footer-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .footer-3{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    footer .redes-sociales{
+        width: 55px;
+        height: 50px;
+        background-color: rgba(49,97,95,1);
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    footer .redes-sociales a i{
+        font-size: 30px;
+        color: white;
+    }
+    footer ul li {
+        margin: 5px;
+        list-style: none;
+    }
+}
+
 @media screen and (max-width: 630px){
     .grid-container{
         display: grid;
@@ -357,6 +424,15 @@ margin: 30px;
     }
 }
 
+@media screen and (max-width:460px){
+    .footer-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width:615px){
     .comentario div{
         height: 400px;
@@ -367,6 +443,7 @@ margin: 30px;
         border-radius: 10px;
         padding: 10px;
     }
+    
     .enviar {
         height: 40px;
         width: 100px;
