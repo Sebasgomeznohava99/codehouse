@@ -290,19 +290,24 @@ margin: 30px;
 .comments label {
     margin-bottom: 15px; /* Agrega espacio entre los label y los textarea */
     display: block; /* Cambia el display a block para que ocupen toda la anchura y para que todo con lo que conviven inicie en lineas separadas*/
-    text-align: center; /* Centra el texto */
+    text-align: center;
+    border: none; /* Centra el texto */
 }
 
 .comments input {
     width: 90%; /* Haz que el textarea ocupe todo el ancho disponible */
     box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
     background-color: aquamarine;
+    border: none;
+    border-radius: 7px;
 }
 
 .comments textarea {
     width: 90%; /* Haz que el textarea ocupe todo el ancho disponible */
     box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
     background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
 }
 
 /*MEDIA QUERY*/
