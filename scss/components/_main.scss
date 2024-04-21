@@ -1,0 +1,50 @@
+.nacimiento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: $ancho + 400;
+    background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.837)), url(../img/fondo-header1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+        height: 100px;
+        h2{
+            font-size: 70px;
+            background: linear-gradient(135deg, #DFF0D8 ,0%, rgba(105,255,226,1) 0%, rgba(3,255,154,1) 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .year{
+            text-align: center;
+            padding-top: 15px;
+            font-size: 25px;
+            color: nth($colores, 3);
+            font-weight: bold;
+        }    
+    }
+    a{
+        .boton-primario{
+            height: $ancho - 50;
+            width: $ancho + 50;
+            border-radius: 15px;
+            border: 3px solid rgba(4,142,170,0.5);
+            background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(49,97,95,1) 0%, rgba(4,142,170,1) 60%);
+            transition: all 0.5s ease;
+            transform: translateZ(0);
+            color: nth($colores, 3);
+            &:hover{
+                font-size: 20px;
+                transform: scale(1.1) translateX(5px) translateY(-5px) translateZ(5px);
+                background: linear-gradient(90deg, rgba(11, 220, 74, 0.381) 0%, rgba(5, 131, 22, 0.403) 50%);
+                box-shadow: -5px 5px 5px rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+}
