@@ -1,0 +1,43 @@
+.mapa{
+    @include flex(flex, center, center, column, none );
+    .map{
+        margin: 30px;
+    }
+    h2{
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.comentario{
+    .comments{
+        p{
+
+        }
+        form{
+            fieldset{
+                legend{
+
+                }
+                label{
+                    input{
+
+                    }
+                }
+                label{
+                    input{
+
+                    }
+                }
+                label{
+                    textarea{
+
+                    }
+                }
+            }
+            button{
+                
+            }
+        }
+    }
+}
