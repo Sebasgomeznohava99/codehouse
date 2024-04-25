@@ -58,56 +58,139 @@
     margin-bottom: 10px;
     .item1{
         @extend %grid-items;
+        grid-row: span 2;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item2{
         @extend %grid-items;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item3{
         @extend %grid-items;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item4{
         @extend %grid-items;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item5{
         @extend %grid-items;
+        grid-row: span 2;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item6{
         @extend %grid-items;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item7{
         @extend %grid-items;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item8{
         @extend %grid-items;
+        grid-column: span 2;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
     }
     .item9{
         @extend %grid-items;
+        &:hover{
+            transform: translateY(5px) translateZ(5px) rotateY(360deg);
+        }
         img{
             @extend %grid-main;
         }
+    }
+}
+.tarjetas{
+    @include flex(flex, space-around, center, row, wrap);
+    div{
+        @extend %div-tarjetas;
+        &:hover{
+            transform: translateX(20px) translateY(-10px) translateZ(10px);
+            box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5)
+        }
+        img{
+            @extend %imagenes-flex;
+        }
+    }
+    div{
+        @extend %div-tarjetas;
+        &:hover{
+            transform: translateX(20px) translateY(-10px) translateZ(10px);
+            box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5)
+        }
+        img{
+            @extend %imagenes-flex;
+        }
+    }
+    div{
+        @extend %div-tarjetas;
+        &:hover{
+            transform: translateX(20px) translateY(-10px) translateZ(10px);
+            box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5)
+        }
+        img{
+            @extend %imagenes-flex;
+        }
+    }
+    div{
+        @extend %div-tarjetas;
+        &:hover{
+            transform: translateX(20px) translateY(-10px) translateZ(10px);
+            box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5)
+        }
+        img{
+            @extend %imagenes-flex;
+        }
+    }
+}
+.mi-carrusel{
+    width: 50%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+section{
+    .informacion{
+        text-align: center;
     }
 }

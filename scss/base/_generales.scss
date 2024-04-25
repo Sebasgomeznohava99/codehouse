@@ -17,6 +17,33 @@ $ancho: 100px;
     -webkit-box-shadow: -6px -6px 75px -23px rgba(0,0,0,0.62);
     -moz-box-shadow: -6px -6px 75px -23px rgba(0,0,0,0.62);
 }
+%imagenes-flex{
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+}
+@mixin flex($flex, $justify, $align, $direction, $wrap){
+display:$flex;
+justify-content: $justify;
+align-items: $align;
+flex-direction: $direction;
+flex-wrap: $wrap
+}
+%div-tarjetas{
+    margin: 40px 60px;
+        width: 250px;
+        height: 305px;
+        border: 5px solid rgba(49,97,95,1);
+        padding: 10px;
+        text-align: center;
+        background-color:rgba(4,142,170,1);
+        font-weight: bolder;
+        font-style: italic;
+        border-radius: 20px;
+        transform: translateZ(0);
+        transition: 0.5s ease;
+        box-shadow: -20px 20px 30px 10px rgba(0, 0, 0, 0.837);
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 

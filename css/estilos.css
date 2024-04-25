@@ -14,6 +14,26 @@
   -webkit-box-shadow: -6px -6px 75px -23px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: -6px -6px 75px -23px rgba(0, 0, 0, 0.62); }
 
+.tarjetas div img {
+  width: 200px;
+  height: 170px;
+  border-radius: 10px; }
+
+.tarjetas div {
+  margin: 40px 60px;
+  width: 250px;
+  height: 305px;
+  border: 5px solid #31615f;
+  padding: 10px;
+  text-align: center;
+  background-color: #048eaa;
+  font-weight: bolder;
+  font-style: italic;
+  border-radius: 20px;
+  transform: translateZ(0);
+  transition: 0.5s ease;
+  box-shadow: -20px 20px 30px 10px rgba(0, 0, 0, 0.837); }
+
 * {
   margin: 0;
   padding: 0;
@@ -93,6 +113,57 @@ header .header-color {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 10px; }
+  .grid-container .item1 {
+    grid-row: span 2; }
+    .grid-container .item1:hover {
+      transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item2:hover {
+    transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item3:hover {
+    transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item4:hover {
+    transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item5 {
+    grid-row: span 2; }
+    .grid-container .item5:hover {
+      transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item6:hover {
+    transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item7:hover {
+    transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item8 {
+    grid-column: span 2; }
+    .grid-container .item8:hover {
+      transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+  .grid-container .item9:hover {
+    transform: translateY(5px) translateZ(5px) rotateY(360deg); }
+
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .tarjetas div:hover {
+    transform: translateX(20px) translateY(-10px) translateZ(10px);
+    box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5); }
+  .tarjetas div:hover {
+    transform: translateX(20px) translateY(-10px) translateZ(10px);
+    box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5); }
+  .tarjetas div:hover {
+    transform: translateX(20px) translateY(-10px) translateZ(10px);
+    box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5); }
+  .tarjetas div:hover {
+    transform: translateX(20px) translateY(-10px) translateZ(10px);
+    box-shadow: -20px 20px 20px 3px rgba(255, 255, 255, 0.5); }
+
+.mi-carrusel {
+  width: 50%;
+  margin: 30px auto;
+  overflow: hidden; }
+
+section .informacion {
+  text-align: center; }
 
 footer {
   width: 100%;
