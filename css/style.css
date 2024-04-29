@@ -288,10 +288,9 @@ margin: 30px;
 }
 
 .comments label {
-    margin-bottom: 15px; /* Agrega espacio entre los label y los textarea */
-    display: block; /* Cambia el display a block para que ocupen toda la anchura y para que todo con lo que conviven inicie en lineas separadas*/
-    text-align: center;
-    border: none; /* Centra el texto */
+    margin-bottom: 15px; 
+    display: block; 
+    border: none; 
 }
 
 .comments input {

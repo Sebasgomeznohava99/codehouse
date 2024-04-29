@@ -22,6 +22,31 @@ $ancho: 100px;
     height: 170px;
     border-radius: 10px;
 }
+%grid-productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 2px solid nth($colores ,1);
+    background: $color-footer;
+    margin: 10px 10px; 
+    width: 60%;
+}
+%boton-productos{
+    width: 100%;
+    font-size: 18px;
+    background: $gradiente;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+%imagenes-productos{
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
 @mixin flex($flex, $justify, $align, $direction, $wrap){
 display:$flex;
 justify-content: $justify;
@@ -43,6 +68,12 @@ flex-wrap: $wrap
         transform: translateZ(0);
         transition: 0.5s ease;
         box-shadow: -20px 20px 30px 10px rgba(0, 0, 0, 0.837);
+}
+%tarjetitas{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid rgba(49,97,95,1);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');

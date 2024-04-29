@@ -10,33 +10,85 @@
     }
 }
 .comentario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 550px;
     .comments{
+        height: 500px;
+        width: 600px;
+        text-align: center;
+        background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(6,77,22,1) 0%, rgba(3,255,154,1) 100%);
+        border: solid 3px #1E7E34;
+        border-radius: 10px;
+        padding: 10px;
+        position: relative;
+        top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
         p{
 
         }
         form{
             fieldset{
+                width: 400px;
                 legend{
-
                 }
                 label{
+                    margin-bottom: 15px; 
+                    display: block; 
+                    border: none; 
                     input{
-
+                        width: 90%; /* Haz que el textarea ocupe todo el ancho disponible */
+                        box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+                        background-color: aquamarine;
+                        border: none;
+                        border-radius: 7px;
                     }
                 }
                 label{
+                    margin-bottom: 15px; 
+                    display: block; 
+                    border: none; 
                     input{
-
+                        width: 90%; /* Haz que el textarea ocupe todo el ancho disponible */
+                        box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+                        background-color: aquamarine;
+                        border: none;
+                        border-radius: 7px;
                     }
                 }
                 label{
+                    margin-bottom: 15px; 
+                    display: block; 
+                    border: none; 
                     textarea{
-
+                        width: 90%; /* Haz que el textarea ocupe todo el ancho disponible */
+                        box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+                        background-color: aquamarine;
+                        border: none;
+                        border-radius: 10px;
                     }
                 }
             }
-            button{
-                
+            .enviar{
+                height: 50px;
+                width: 150px;
+                border-radius: 15px;
+                border: 3px solid rgba(4,142,170,0.5);
+                background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(3,31,9,1) 0%, rgba(3,255,154,1) 100%);
+                transition: all 0.5s;
+                transform: translateZ(0);
+                margin: 15px;
+                font-size: 20px;
+                font-weight: bolder;
+                text-align: center;
+                vertical-align: center;
+                &:hover{
+                    transform: translateX(5px) translateY(-5px) translateZ(5px);
+                    box-shadow: -5px 5px 5px rgba(0 ,0 ,0, 0.5);
+                }
             }
         }
     }

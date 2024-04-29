@@ -19,6 +19,31 @@
   height: 170px;
   border-radius: 10px; }
 
+.grid-productos div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px solid black;
+  background: linear-gradient(to bottom, #49aa25 0%, #1E7E34 40%);
+  margin: 10px 10px;
+  width: 60%; }
+
+.grid-productos div a button {
+  width: 100%;
+  font-size: 18px;
+  background: linear-gradient(to bottom, #DFF0D8, #1E7E34);
+  border: none;
+  border-radius: 10px;
+  transition: all 0.5s ease; }
+
+.grid-productos div img {
+  width: 70%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px; }
+
 .tarjetas div {
   margin: 40px 60px;
   width: 250px;
@@ -33,6 +58,12 @@
   transform: translateZ(0);
   transition: 0.5s ease;
   box-shadow: -20px 20px 30px 10px rgba(0, 0, 0, 0.837); }
+
+.tarjetitas div img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  border: 5px solid #31615f; }
 
 * {
   margin: 0;
@@ -81,7 +112,7 @@ header .header-color {
     height: 100px; }
     .nacimiento div h2 {
       font-size: 70px;
-      background: linear-gradient(135deg, #DFF0D8, 0%, #69ffe2 0%, #03ff9a 80%);
+      background: linear-gradient(135deg, #DFF0D8, 0%, #69ffe2 0%, #03ff9a 50%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
     .nacimiento div .year {
@@ -214,4 +245,172 @@ footer {
   .mapa h2 {
     color: black;
     text-align: center;
+    margin-bottom: 30px; }
+
+.comentario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 550px; }
+  .comentario .comments {
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    background: linear-gradient(135deg, #0f4c52 0%, #064d16 0%, #03ff9a 100%);
+    border: solid 3px #1E7E34;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .comentario .comments form fieldset {
+      width: 400px; }
+      .comentario .comments form fieldset label {
+        margin-bottom: 15px;
+        display: block;
+        border: none; }
+        .comentario .comments form fieldset label input {
+          width: 90%;
+          /* Haz que el textarea ocupe todo el ancho disponible */
+          box-sizing: border-box;
+          /* Incluye el padding y el borde en el ancho */
+          background-color: aquamarine;
+          border: none;
+          border-radius: 7px; }
+      .comentario .comments form fieldset label {
+        margin-bottom: 15px;
+        display: block;
+        border: none; }
+        .comentario .comments form fieldset label input {
+          width: 90%;
+          /* Haz que el textarea ocupe todo el ancho disponible */
+          box-sizing: border-box;
+          /* Incluye el padding y el borde en el ancho */
+          background-color: aquamarine;
+          border: none;
+          border-radius: 7px; }
+      .comentario .comments form fieldset label {
+        margin-bottom: 15px;
+        display: block;
+        border: none; }
+        .comentario .comments form fieldset label textarea {
+          width: 90%;
+          /* Haz que el textarea ocupe todo el ancho disponible */
+          box-sizing: border-box;
+          /* Incluye el padding y el borde en el ancho */
+          background-color: aquamarine;
+          border: none;
+          border-radius: 10px; }
+    .comentario .comments form .enviar {
+      height: 50px;
+      width: 150px;
+      border-radius: 15px;
+      border: 3px solid rgba(4, 142, 170, 0.5);
+      background: linear-gradient(135deg, #0f4c52 0%, #031f09 0%, #03ff9a 100%);
+      transition: all 0.5s;
+      transform: translateZ(0);
+      margin: 15px;
+      font-size: 20px;
+      font-weight: bolder;
+      text-align: center;
+      vertical-align: center; }
+      .comentario .comments form .enviar:hover {
+        transform: translateX(5px) translateY(-5px) translateZ(5px);
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5); }
+
+.resume {
+  text-align: center; }
+  .resume a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer; }
+
+.information h2 {
+  text-decoration: underline;
+  text-align: center;
+  background: linear-gradient(90deg, #DFF0D8, 10%, #08b9ad 50%, #049159 50%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+.information p {
+  text-align: center;
+  margin: 0 10px; }
+
+.tarjetitas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .tarjetitas div {
+    margin: 30px 20px;
+    transition: all 0.5s ease; }
+    .tarjetitas div:hover {
+      transform: translateY(-5px) translateZ(10px) translateX(5px);
+      box-shadow: -5px 5px 20px 10px;
+      opacity: 0.95; }
+  .tarjetitas div {
+    margin: 30px 20px;
+    transition: all 0.5s ease; }
+    .tarjetitas div:hover {
+      transform: translateY(-5px) translateZ(10px) translateX(5px);
+      box-shadow: -5px 5px 20px 10px;
+      opacity: 0.95; }
+  .tarjetitas div {
+    margin: 30px 20px;
+    transition: all 0.5s ease; }
+    .tarjetitas div:hover {
+      transform: translateY(-5px) translateZ(10px) translateX(5px);
+      box-shadow: -5px 5px 20px 10px;
+      opacity: 0.95; }
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  width: 100%;
+  gap: 20px;
+  justify-items: center; }
+  .grid-productos div h2 {
+    font-size: 20px;
+    margin-bottom: 5px; }
+  .grid-productos div a button:hover {
+    transform: scale(1.1); }
+  .grid-productos div h2 {
+    font-size: 20px;
+    margin-bottom: 5px; }
+  .grid-productos div a button:hover {
+    transform: scale(1.1); }
+  .grid-productos div h2 {
+    font-size: 20px;
+    margin-bottom: 5px; }
+  .grid-productos div a button:hover {
+    transform: scale(1.1); }
+  .grid-productos div h2 {
+    font-size: 20px;
+    margin-bottom: 5px; }
+  .grid-productos div a button:hover {
+    transform: scale(1.1); }
+  .grid-productos div h2 {
+    font-size: 20px;
+    margin-bottom: 5px; }
+  .grid-productos div a button:hover {
+    transform: scale(1.1); }
+  .grid-productos div h2 {
+    font-size: 20px;
+    margin-bottom: 5px; }
+  .grid-productos div a button:hover {
+    transform: scale(1.1); }
+
+.definicion {
+  text-align: center;
+  margin: 5px 20px; }
+  .definicion h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: 10px -10px 5px rgba(0, 0, 0, 0.5); }
+  .definicion p {
     margin-bottom: 30px; }
