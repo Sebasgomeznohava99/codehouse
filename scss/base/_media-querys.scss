@@ -166,3 +166,264 @@
         }
     }
 }
+@media screen and (max-width:920px){
+    .grid-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 200px;
+            gap: 20px;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        .item1{
+            grid-row: span 1;
+        }
+        .item2{
+
+        }
+        .item3{
+
+        }
+        .item4{
+
+        }
+        .item5{
+            grid-row: span 1;
+        }
+        .item6{
+
+        }
+        .item7{
+
+        }
+        .item8{
+            grid-column: span 1;
+        }
+        .item9{
+            grid-column: span 2;
+        }
+    }
+}
+@media screen and (max-width:630px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 200px;
+        gap: 20px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 20px;
+        .item9{
+            grid-column: span 1;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+footer{
+    height: 100%;
+    .grid-footer{
+        .footer-1{
+            ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                flex-direction: column;
+                li{
+                    margin: 0px;
+                }
+                li{
+                    margin: 0px;
+                }
+                li{
+                    margin: 0px;
+                }
+                li{
+                    margin: 0px;
+                }
+                li{
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+}
+@media screen and (max-width: 800px){
+    .mapa{
+        .map{
+
+        }
+        h2{
+            color: black;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+    }
+}
+@media screen and (max-width:700px){
+    .mapa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 610px){
+    .mapa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        .map{
+            width:400px;
+            height: 400px;
+        }
+        h2{
+            color: black;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+    }
+}
+@media screen and (max-width:410px){
+    .mapa{
+        .map{
+            width:300px;
+            height: 300px;
+        }
+        h2{
+
+        }
+    }
+}
+@media screen and (max-width:615px){
+    .comentario{
+        .comments{
+            height: 500px;
+            width: 400px;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(6,77,22,1) 0%, rgba(3,255,154,1) 100%);
+            border: solid 3px #1E7E34;
+            border-radius: 10px;
+            padding: 10px;
+            p{
+                
+            }
+            form{
+                fieldset{
+                    legend{
+
+                    }
+                    label{
+                        input{
+
+                        }
+                    }
+                    label{
+                        input{
+
+                        }
+                    }
+                    label{
+                        textarea{
+
+                        }
+                    }
+                }
+                .enviar{
+                    height: 40px;
+                    width: 100px;
+                    border-radius: 15px;
+                    border: 3px solid rgba(4,142,170,0.5);
+                    background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(3,31,9,1) 0%, rgba(3,255,154,1) 100%);
+                    transition: all 0.5s;
+                    transform: translateZ(0);
+                    margin: 2px;
+                    font-size: 20px;
+                    font-weight: bolder;
+                    text-align: center;
+                    vertical-align: center;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:410px){
+    .comentario{
+        .comments{
+            height: 400px;
+            width: 300px;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(6,77,22,1) 0%, rgba(3,255,154,1) 100%);
+            border: solid 3px #1E7E34;
+            border-radius: 10px;
+            padding: 10px;
+            p{
+                width: 250px;
+                height: 195 px;
+                font-size: 14px;
+            }
+            form{
+                fieldset{
+                    width: 250px;
+                    height: 195 px;
+                    font-size: 14px;
+                    legend{
+
+                    }
+                    label{
+                        margin-bottom: 5px; /* Agrega espacio entre los label y los textarea */
+                        display: block; /* Cambia el display a block para que ocupen toda la anchura y para que todo con lo que conviven inicie en lineas separadas*/
+                        text-align: center;
+                        input{
+                            width: 50%; /* Haz que el textarea ocupe todo el ancho disponible */
+                            box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+                            background-color: aquamarine; 
+                        }
+                    }
+                    label{
+                        margin-bottom: 5px; /* Agrega espacio entre los label y los textarea */
+                        display: block; /* Cambia el display a block para que ocupen toda la anchura y para que todo con lo que conviven inicie en lineas separadas*/
+                        text-align: center;
+                        input{
+                            width: 50%; /* Haz que el textarea ocupe todo el ancho disponible */
+                            box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+                            background-color: aquamarine; 
+                        }
+                    }
+                    label{
+                        margin-bottom: 5px; /* Agrega espacio entre los label y los textarea */
+                        display: block; /* Cambia el display a block para que ocupen toda la anchura y para que todo con lo que conviven inicie en lineas separadas*/
+                        text-align: center;
+                        textarea{
+                            width: 50%; /* Haz que el textarea ocupe todo el ancho disponible */
+                            box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+                            background-color: aquamarine;
+                        }
+                    }
+                }
+                .enviar{
+                    height: 25px;
+                    width: 80px;
+                    border-radius: 15px;
+                    border: 3px solid rgba(4,142,170,0.5);
+                    background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(3,31,9,1) 0%, rgba(3,255,154,1) 100%);
+                    transition: all 0.5s;
+                    transform: translateZ(0);
+                    margin: 3px;
+                    font-size: 14px;
+                    font-weight: bolder;
+                    text-align: center;
+                    vertical-align: center;
+                }
+            }
+        }
+    }
+}
