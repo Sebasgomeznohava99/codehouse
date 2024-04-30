@@ -1,0 +1,168 @@
+@media screen and (max-width: 540px){
+    .nacimiento{
+        div{
+            h2{
+                font-size: 50px;
+                background: linear-gradient(135deg, #DFF0D8 ,0%, rgba(105,255,226,1) 0%, rgba(3,255,154,1) 80%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .year{
+                text-align: center;
+                padding-top: 5px;
+                font-size: 20px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+        a{
+            .boton-primario{
+                height: 50px;
+                width: 100px;
+                border-radius: 15px;
+                border: 3px solid rgba(4,142,170,0.5);
+                background: linear-gradient(135deg, rgba(15,76,82,1) 0%, rgba(49,97,95,1) 0%, rgba(4,142,170,1) 60%);
+                transition: all 0.5s;
+                transform: translateZ(0);
+            }
+        }
+    }
+}
+@media screen and (max-width: 370px){
+    .nacimiento{
+        div{
+            h2{
+                font-size: 45px;
+                background: linear-gradient(135deg, #DFF0D8 ,0%, rgba(105,255,226,1) 0%, rgba(3,255,154,1) 80%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .year{
+                text-align: center;
+                padding-top: 5px;
+                font-size: 15px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+        a{
+            .boton-primario{
+            }
+        }
+    }
+}
+@media screen and (max-width: 670px){
+    .grid-footer{
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        grid-auto-rows: 200px;
+        .footer-1{
+            text-align: justify;
+            padding: 20px;
+            padding-left: 20px;
+            font-size: 12px;
+            padding-top: 30px;
+            ul{
+                li{
+                    margin: 5px;
+                    list-style: none;
+                    a{
+                        
+                    }
+                }
+                li{
+                    margin: 5px;
+                    list-style: none;
+                    a{
+                        
+                    }
+                }
+                li{
+                    margin: 5px;
+                    list-style: none;
+                    a{
+                        
+                    }
+                }
+                li{
+                    margin: 5px;
+                    list-style: none;
+                    a{
+                        
+                    }
+                }
+                li{
+                    margin: 5px;
+                    list-style: none;
+                    a{
+                        
+                    }
+                }
+            }
+        }
+        .footer-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .redes-sociales{
+                width: 55px;
+                height: 50px;
+                background-color: rgba(49,97,95,1);
+                border: 2px solid black;
+                border-radius: 10px;
+                text-align: center;
+                a{
+                    i{
+                        font-size: 30px;
+                        color: white;;
+                    }
+                }
+            }
+            .redes-sociales{
+                width: 55px;
+                height: 50px;
+                background-color: rgba(49,97,95,1);
+                border: 2px solid black;
+                border-radius: 10px;
+                text-align: center;
+                a{
+                    i{
+                        font-size: 30px;
+                        color: white;;
+                    }
+                }
+            }
+        }
+        .footer-3{
+            text-align: center;
+            margin-top: 30px;
+            font-size: 12px;
+            .creditos{
+                strong{
+
+                }
+            }
+            .creditos{
+                strong{
+
+                }
+            }
+            .creditos{
+
+            }
+            .creditos{
+
+            }
+        }
+    }
+}
+@media screen and (max-width:460px){
+    .grid-footer{
+        .footer-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}

@@ -414,3 +414,163 @@ footer {
     text-shadow: 10px -10px 5px rgba(0, 0, 0, 0.5); }
   .definicion p {
     margin-bottom: 30px; }
+
+.titulo-servicios {
+  text-align: center; }
+
+.imagenes-servicios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px; }
+  .imagenes-servicios img {
+    width: 250px;
+    height: 200px;
+    transition: all 1s linear;
+    margin: 30px;
+    border-radius: 10px;
+    border: 5px solid #31615f; }
+    .imagenes-servicios img:hover {
+      transform: scale(1.2); }
+  .imagenes-servicios img {
+    width: 250px;
+    height: 200px;
+    transition: all 1s linear;
+    margin: 30px;
+    border-radius: 10px;
+    border: 5px solid #31615f; }
+    .imagenes-servicios img:hover {
+      transform: scale(1.2); }
+  .imagenes-servicios img {
+    width: 250px;
+    height: 200px;
+    transition: all 1s linear;
+    margin: 30px;
+    border-radius: 10px;
+    border: 5px solid #31615f; }
+    .imagenes-servicios img:hover {
+      transform: scale(1.2); }
+
+.preguntas-frecuentes details {
+  width: 80%;
+  height: auto;
+  margin: 20px; }
+  .preguntas-frecuentes details summary {
+    font-weight: bold; }
+
+.preguntas-frecuentes details {
+  width: 80%;
+  height: auto;
+  margin: 20px; }
+  .preguntas-frecuentes details summary {
+    font-weight: bold; }
+
+.preguntas-frecuentes details {
+  width: 80%;
+  height: auto;
+  margin: 20px; }
+  .preguntas-frecuentes details summary {
+    font-weight: bold; }
+
+.preguntas-frecuentes details {
+  width: 80%;
+  height: auto;
+  margin: 20px; }
+  .preguntas-frecuentes details summary {
+    font-weight: bold; }
+
+@media screen and (max-width: 540px) {
+  .nacimiento div h2 {
+    font-size: 50px;
+    background: linear-gradient(135deg, #DFF0D8, 0%, #69ffe2 0%, #03ff9a 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .nacimiento div .year {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold; }
+  .nacimiento a .boton-primario {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border: 3px solid rgba(4, 142, 170, 0.5);
+    background: linear-gradient(135deg, #0f4c52 0%, #31615f 0%, #048eaa 60%);
+    transition: all 0.5s;
+    transform: translateZ(0); } }
+
+@media screen and (max-width: 370px) {
+  .nacimiento div h2 {
+    font-size: 45px;
+    background: linear-gradient(135deg, #DFF0D8, 0%, #69ffe2 0%, #03ff9a 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .nacimiento div .year {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold; } }
+
+@media screen and (max-width: 670px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-auto-rows: 200px; }
+    .grid-footer .footer-1 {
+      text-align: justify;
+      padding: 20px;
+      padding-left: 20px;
+      font-size: 12px;
+      padding-top: 30px; }
+      .grid-footer .footer-1 ul li {
+        margin: 5px;
+        list-style: none; }
+      .grid-footer .footer-1 ul li {
+        margin: 5px;
+        list-style: none; }
+      .grid-footer .footer-1 ul li {
+        margin: 5px;
+        list-style: none; }
+      .grid-footer .footer-1 ul li {
+        margin: 5px;
+        list-style: none; }
+      .grid-footer .footer-1 ul li {
+        margin: 5px;
+        list-style: none; }
+    .grid-footer .footer-2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .grid-footer .footer-2 .redes-sociales {
+        width: 55px;
+        height: 50px;
+        background-color: #31615f;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center; }
+        .grid-footer .footer-2 .redes-sociales a i {
+          font-size: 30px;
+          color: white; }
+      .grid-footer .footer-2 .redes-sociales {
+        width: 55px;
+        height: 50px;
+        background-color: #31615f;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center; }
+        .grid-footer .footer-2 .redes-sociales a i {
+          font-size: 30px;
+          color: white; }
+    .grid-footer .footer-3 {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 12px; } }
+
+@media screen and (max-width: 460px) {
+  .grid-footer .footer-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; } }

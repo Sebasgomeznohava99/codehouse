@@ -1,0 +1,88 @@
+.titulo-servicios{
+    text-align: center;
+}
+.imagenes-servicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+        img{
+            width: 250px;
+            height: 200px;
+            transition: all 1s linear;
+            margin: 30px;
+            border-radius: 10px;
+            border: 5px solid nth($colores , 2 );
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        img{
+            width: 250px;
+            height: 200px;
+            transition: all 1s linear;
+            margin: 30px;
+            border-radius: 10px;
+            border: 5px solid nth($colores , 2 );
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        img{
+            width: 250px;
+            height: 200px;
+            transition: all 1s linear;
+            margin: 30px;
+            border-radius: 10px;
+            border: 5px solid nth($colores , 2 );
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+}
+.preguntas-frecuentes{
+    details{
+        width: 80%;
+        height: auto;
+        margin: 20px;
+        summary{
+            font-weight: bold;
+        }
+        p{
+
+        }
+    }
+    details{
+        width: 80%;
+        height: auto;
+        margin: 20px;
+        summary{
+            font-weight: bold;
+        }
+        p{
+
+        }
+    }
+    details{
+        width: 80%;
+        height: auto;
+        margin: 20px;
+        summary{
+            font-weight: bold;
+        }
+        p{
+
+        }
+    }
+    details{
+        width: 80%;
+        height: auto;
+        margin: 20px;
+        summary{
+            font-weight: bold;
+        }
+        p{
+
+        }
+    }
+}
