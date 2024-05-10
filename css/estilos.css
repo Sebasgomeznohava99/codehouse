@@ -93,6 +93,13 @@ header .header-color {
     header .header-color .container-fluid .collapse .d-flex button:hover {
       transform: scale(1.1); }
 
+marquee {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 800;
+  font-style: oblique;
+  text-shadow: 0px 7px 2px rgba(0, 0, 0, 0.234); }
+
 .nacimiento {
   display: flex;
   flex-direction: column;
@@ -320,6 +327,13 @@ footer {
         transform: translateX(5px) translateY(-5px) translateZ(5px);
         box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.5); }
 
+marquee {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 800;
+  font-style: oblique;
+  text-shadow: 0px 7px 2px rgba(0, 0, 0, 0.234); }
+
 .resume {
   text-align: center; }
   .resume a {
@@ -367,6 +381,20 @@ footer {
       transform: translateY(-5px) translateZ(10px) translateX(5px);
       box-shadow: -5px 5px 20px 10px;
       opacity: 0.95; }
+
+marquee {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 800;
+  font-style: oblique;
+  text-shadow: 0px 7px 2px rgba(0, 0, 0, 0.234); }
+
+section {
+  width: 100%;
+  text-align: center; }
+  section iframe {
+    width: 50%;
+    aspect-ratio: 16/9; }
 
 .grid-productos {
   display: grid;
@@ -417,6 +445,13 @@ footer {
     text-shadow: 10px -10px 5px rgba(0, 0, 0, 0.5); }
   .definicion p {
     margin-bottom: 30px; }
+
+marquee {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 800;
+  font-style: oblique;
+  text-shadow: 0px 7px 2px rgba(0, 0, 0, 0.234); }
 
 .titulo-servicios {
   text-align: center; }
@@ -482,6 +517,13 @@ footer {
   margin: 20px; }
   .preguntas-frecuentes details summary {
     font-weight: bold; }
+
+marquee {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 800;
+  font-style: oblique;
+  text-shadow: 0px 7px 2px rgba(0, 0, 0, 0.234); }
 
 @media screen and (max-width: 540px) {
   .nacimiento div h2 {
