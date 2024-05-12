@@ -453,6 +453,61 @@ marquee {
   font-style: oblique;
   text-shadow: 0px 7px 2px rgba(0, 0, 0, 0.234); }
 
+.encuesta form {
+  width: 60%;
+  margin: 20px auto;
+  background: linear-gradient(135deg, #0f4c52 0%, #064d16 0%, #03ff9a 100%);
+  border: 3px solid #064d16;
+  border-radius: 20px; }
+  .encuesta form fieldset {
+    width: 50%;
+    margin: 0 auto; }
+    .encuesta form fieldset legend {
+      font-weight: bolder;
+      font-style: italic; }
+    .encuesta form fieldset label {
+      display: block;
+      margin-bottom: 20px;
+      border: none; }
+      .encuesta form fieldset label input {
+        width: 90%;
+        box-sizing: border-box;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 7px; }
+    .encuesta form fieldset label {
+      display: block;
+      margin-bottom: 20px;
+      border: none; }
+      .encuesta form fieldset label input {
+        width: 90%;
+        /* Haz que el textarea ocupe todo el ancho disponible */
+        box-sizing: border-box;
+        /* Incluye el padding y el borde en el ancho */
+        background-color: aquamarine;
+        border: none;
+        border-radius: 7px; }
+    .encuesta form fieldset div datalist option {
+      border: 1px solid aquamarine; }
+    .encuesta form fieldset div datalist option {
+      border: 1px solid aquamarine; }
+    .encuesta form fieldset div datalist option {
+      border: 1px solid aquamarine; }
+    .encuesta form fieldset div label {
+      display: block;
+      margin-bottom: 20px;
+      border: none; }
+    .encuesta form fieldset button {
+      width: 30%;
+      background: #03ff9a;
+      font-size: 20px;
+      transition: all 0.5s ease;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 10px; }
+      .encuesta form fieldset button:hover {
+        transform: scale(1.1); }
+
 .titulo-servicios {
   text-align: center; }
 
@@ -868,3 +923,60 @@ marquee {
     width: 100%;
     gap: 20px;
     justify-items: center; } }
+
+@media screen and (max-width: 850px) {
+  .encuesta form {
+    width: 60%;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #0f4c52 0%, #064d16 0%, #03ff9a 100%);
+    border: 3px solid #064d16;
+    border-radius: 20px; }
+    .encuesta form fieldset {
+      width: 50%;
+      margin: 0 auto; }
+      .encuesta form fieldset legend {
+        font-style: italic;
+        font-size: 14px; }
+      .encuesta form fieldset label {
+        display: block;
+        margin-bottom: 20px;
+        border: none;
+        font-size: 12px; }
+        .encuesta form fieldset label input {
+          width: 90%;
+          box-sizing: border-box;
+          background-color: aquamarine;
+          border: none;
+          border-radius: 7px; }
+      .encuesta form fieldset label {
+        display: block;
+        margin-bottom: 20px;
+        border: none; }
+        .encuesta form fieldset label input {
+          width: 90%;
+          /* Haz que el textarea ocupe todo el ancho disponible */
+          box-sizing: border-box;
+          /* Incluye el padding y el borde en el ancho */
+          background-color: aquamarine;
+          border: none;
+          border-radius: 7px; }
+      .encuesta form fieldset div datalist option {
+        border: 1px solid aquamarine; }
+      .encuesta form fieldset div datalist option {
+        border: 1px solid aquamarine; }
+      .encuesta form fieldset div datalist option {
+        border: 1px solid aquamarine; }
+      .encuesta form fieldset div label {
+        display: block;
+        margin-bottom: 20px;
+        border: none; }
+      .encuesta form fieldset button {
+        width: 30%;
+        background: #03ff9a;
+        font-size: 10px;
+        transition: all 0.5s ease;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 10px; }
+        .encuesta form fieldset button:hover {
+          transform: scale(1.1); } }

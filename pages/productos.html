@@ -123,6 +123,30 @@
                 </a>
             </div>
         </section>
+        <section class="encuesta">
+            <form action="">
+                <fieldset>
+                    <legend>¿ En qué producto te encuentras interesado ?</legend>
+                    <label for="name">Nombre:
+                        <input type="name" placeholder="Sebastian Gomez Nohava" required>
+                    </label>
+                    <label for="email"> Email:
+                        <input type="email" required placeholder="sebas@gmail.com">
+                    </label>
+                    <div>
+                        <datalist id="servicios" >
+                            <option value="Ventas"></option>
+                            <option value="Servicio al Cliente"></option>
+                            <option value="Desarrollo"></option>
+                        </datalist>
+                        <label for=""> ¿ Qué servicio es el que deseas ?
+                            <input type="text" list="servicios">
+                        </label>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
         <section class="grid-footer">

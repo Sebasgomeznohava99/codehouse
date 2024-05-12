@@ -135,3 +135,77 @@ marquee{
     font-style: oblique;
     text-shadow: 0px 7px 2px rgba(0, 0, 0, 0.234);
     }
+.encuesta{
+    form{
+        width: 60%;
+        margin: 20px auto;
+        background: linear-gradient(135deg, #0f4c52 0%, #064d16 0%, #03ff9a 100%);
+        border: 3px solid #064d16;
+        border-radius: 20px;
+        fieldset{
+            width: 50%;
+            margin: 0 auto;
+            legend{
+                font-weight: bolder;
+                font-style: italic;
+            }
+            label{
+                display: block;
+                margin-bottom: 20px;
+                border: none;
+                input{
+                    width: 90%; 
+                    box-sizing: border-box; 
+                    background-color: aquamarine;
+                    border: none;
+                    border-radius: 7px;
+                }
+            }
+            label{
+                display: block;
+                margin-bottom: 20px;
+                border: none;
+                input{
+                    width: 90%; /* Haz que el textarea ocupe todo el ancho disponible */
+                    box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+                    background-color: aquamarine;
+                    border: none;
+                    border-radius: 7px;
+                }
+            }
+            div{
+                datalist{
+                    option{
+                        border: 1px solid aquamarine;
+                    }
+                    option{
+                        border: 1px solid aquamarine;
+                    }
+                    option{
+                        border: 1px solid aquamarine;
+                    }
+                }
+                label{
+                    display: block;
+                    margin-bottom: 20px;
+                    border: none;
+                    input{
+
+                    }
+                }
+            }
+            button{
+                width: 30%;
+                background: #03ff9a;
+                font-size: 20px;
+                transition: all 0.5s ease;
+                margin-bottom: 20px;
+                border: none;
+                border-radius: 10px;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
