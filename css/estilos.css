@@ -346,7 +346,11 @@ marquee {
   text-align: center;
   background: linear-gradient(90deg, #DFF0D8, 10%, #08b9ad 50%, #049159 50%);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; }
+  -webkit-background-clip: text;
+  margin: 20px  auto;
+  text-decoration: underline;
+  font-style: italic;
+  text-shadow: 10px -10px 6px rgba(0, 0, 0, 0.2); }
 
 .information p {
   text-align: center;
@@ -509,7 +513,13 @@ marquee {
         transform: scale(1.1); }
 
 .titulo-servicios {
-  text-align: center; }
+  text-align: center;
+  margin: 20px auto; }
+  .titulo-servicios h2 {
+    margin-bottom: 25px;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: 10px -10px 5px rgba(0, 0, 0, 0.5); }
 
 .imagenes-servicios {
   display: flex;
@@ -545,33 +555,33 @@ marquee {
     .imagenes-servicios img:hover {
       transform: scale(1.2); }
 
-.preguntas-frecuentes details {
-  width: 80%;
-  height: auto;
-  margin: 20px; }
-  .preguntas-frecuentes details summary {
-    font-weight: bold; }
-
-.preguntas-frecuentes details {
-  width: 80%;
-  height: auto;
-  margin: 20px; }
-  .preguntas-frecuentes details summary {
-    font-weight: bold; }
-
-.preguntas-frecuentes details {
-  width: 80%;
-  height: auto;
-  margin: 20px; }
-  .preguntas-frecuentes details summary {
-    font-weight: bold; }
-
-.preguntas-frecuentes details {
-  width: 80%;
-  height: auto;
-  margin: 20px; }
-  .preguntas-frecuentes details summary {
-    font-weight: bold; }
+.preguntas-frecuentes {
+  width: 100%;
+  text-align: center; }
+  .preguntas-frecuentes details {
+    width: 80%;
+    height: auto;
+    margin: 20px auto; }
+    .preguntas-frecuentes details summary {
+      font-weight: bold; }
+  .preguntas-frecuentes details {
+    width: 80%;
+    height: auto;
+    margin: 20px auto; }
+    .preguntas-frecuentes details summary {
+      font-weight: bold; }
+  .preguntas-frecuentes details {
+    width: 80%;
+    height: auto;
+    margin: 20px auto; }
+    .preguntas-frecuentes details summary {
+      font-weight: bold; }
+  .preguntas-frecuentes details {
+    width: 80%;
+    height: auto;
+    margin: 20px auto; }
+    .preguntas-frecuentes details summary {
+      font-weight: bold; }
 
 marquee {
   font-size: 20px;

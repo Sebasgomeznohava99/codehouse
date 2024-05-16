@@ -13,6 +13,10 @@
         background: linear-gradient(90deg, #DFF0D8 ,10%, rgb(8, 185, 173) 50%, rgb(4, 145, 89) 50%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+        margin: 20px  auto;
+        text-decoration: underline;
+        font-style: italic;
+        text-shadow: 10px -10px 6px rgba( 0, 0, 0, 0.2);
     }
     p{
         text-align: center;
